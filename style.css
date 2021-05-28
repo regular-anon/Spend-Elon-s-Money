@@ -1,0 +1,120 @@
+.box{
+    margin: 1%;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius:2%;
+}
+.box h3{
+    text-align: center;
+    display: inline-flex;
+    margin:0 auto 0 auto;
+}
+p{  
+    text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  margin:0px;
+}
+.column {
+  flex: 0%;
+  padding: 0px 4px;
+  
+}
+.column img {
+  margin-top: 5%;
+  vertical-align: middle;
+  width:80%;
+  height:auto;
+  padding-top:5%;
+}
+.btnbuy:link,
+.btnbuy:visited{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid greenyellow;
+    padding:2%;
+    border-radius: 15px;
+    margin-left:10px;
+    background-color: greenyellow;
+    transition: background-color 0.2s, border 0.2s;
+    margin-bottom: 10px;
+    font-size:24px;
+}
+.btnbuy:hover,
+.btnbuy:active{
+    border: 1px solid #86c722;
+    background-color:#86c722;   
+}
+.btnsell:link,
+.btnsell:visited{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ff003b;
+    padding:2%;
+    border-radius: 15px;
+    margin-right:10px;
+    background-color: #ff003b;
+    transition: background-color 0.2s, border 0.2s;
+    margin-bottom: 10px;
+    float:right;
+    font-size:24px;
+}
+.btnsell:hover,
+.btnsell:active{
+    border: 1px solid #bc0630;
+    background-color:#bc0630;    
+}
+h3{
+    display:inline;
+    padding:0;
+    margin-right: auto;
+    text-align:center;
+}
+.balance{
+    padding:20px;
+    color: white;
+    background-color: aqua;
+    margin-right: 
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    position: sticky;
+    z-index: 9999;
+    top:0;
+}
+.tot{
+    padding-left:20%;
+    padding-right:20%;
+}
+body{
+    background-color:#f0f0f0;
+}
+.elon{
+    background-color: #fff;
+    padding-bottom:10px;
+    padding-top:20px;
+    margin-bottom:20px;
+}
+.elon img{
+    width:200px;
+    border-radius:40%;
+    margin-top:10px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+    text-align: center;
+    font-weight:bold;
+    font-size:32px;
+}
