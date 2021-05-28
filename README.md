@@ -1,0 +1,3 @@
+# Spend-Elon-s-Money
+
+The best idea I could come up with for the school project...
