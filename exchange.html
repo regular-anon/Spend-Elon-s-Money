@@ -1,43 +1,21 @@
-<!Doctype HTML>
-
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <style>
-            .titleDiv h3 {
-                text-align:center;
-            }
-            .crypto {
-                border: solid black;
-            }
-            .crypto img {
-                height:100px;
-                display: inline;
-            }
-            .crypto h4 {
-                display: inline;
-                margin-bottom:10%;
-            }
-            .crypto h5 {
-                display: inline;
-                margin-bottom:10%;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="titleDiv">
-            <h3>Invest with virtual funds!</h3>
-        </div>
-        <hr />
+<head>
+    <title>Crypto Exchange</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Invest with virtual funds!</h1>
+        <h3>Try your luck with crypto!</h3>
+    </header>
+    <div class="balance">
+        <p>Budget</p>
+        <a class="reset" href="javascript:void(0)" onclick="window.localStorage.clear(); location.reload();">Reset Progress</a>
+    </div>
+    <div class="coins">
 
-        <div class="crypto">
-            <img src="Photos/bitcoin.png"/>
-            <h4>Bitcoin</h4>
-            <br />
-            <h5>Value: 30000</h5>
-        </div>
-
-        <div>
-            
-        </div>
-    </body>
+    </div>
+    <script src="CryptoManager.js"></script>
+</body>
 </html>

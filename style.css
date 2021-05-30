@@ -7,7 +7,6 @@
 .box h3{
     text-align: center;
     display: inline-flex;
-    margin:0 auto 0 auto;
 }
 p{  
     text-align: center;
@@ -31,8 +30,8 @@ p{
 .column img {
   margin-top: 5%;
   vertical-align: middle;
-  width:80%;
-  height:auto;
+  height:250px;
+  width:60%;
   padding-top:5%;
 }
 .btnbuy:link,
@@ -75,22 +74,23 @@ p{
     background-color:#bc0630;    
 }
 h3{
-    display:inline;
+    display:inline-flex;
     padding:0;
     margin-right: auto;
     text-align:center;
+    padding-left:26%;
+    padding-right:auto;
 }
-.balance{
-    padding:20px;
+.balance {
+    padding: 20px;
     color: white;
-    background-color: aqua;
-    margin-right: 
-    font-size: 32px;
+    background: linear-gradient(rgb(46, 204, 113), rgb(26, 188, 156));
+    margin-right: font-size: 32px;
     font-weight: bold;
     text-align: center;
     position: sticky;
     z-index: 9999;
-    top:0;
+    top: 0;
 }
 .tot{
     padding-left:20%;

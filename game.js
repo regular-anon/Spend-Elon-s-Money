@@ -1,27 +1,27 @@
 var budget = 200_000_000_000;
 
 
-var bitcoin_index = 1;
+//var bitcoin_index = 1;
 var div_list = document.getElementsByClassName("column box");
 
-function updateBitcoinPrice(value) {
-    var bitcoinParagraph = div_list[bitcoin_index].getElementsByTagName("p")[1];
-    var bitcoinPrice = parseFloat(bitcoinParagraph.innerText.substring(1));
-    bitcoinParagraph.innerText = "$" + value;
-    if (bitcoinPrice < parseFloat(value))
-        bitcoinParagraph.style.color = "lime";
-    else
-        bitcoinParagraph.style.color = "red";
-}
+//function updateBitcoinPrice(value) {
+//    var bitcoinParagraph = div_list[bitcoin_index].getElementsByTagName("p")[1];
+//    var bitcoinPrice = parseFloat(bitcoinParagraph.innerText.substring(1));
+//    bitcoinParagraph.innerText = "$" + value;
+//    if (bitcoinPrice < parseFloat(value))
+//        bitcoinParagraph.style.color = "lime";
+//    else
+//        bitcoinParagraph.style.color = "red";
+//}
 
-function retrieveBitcoinPrice() {
-    const pricesWs = new WebSocket("wss://ws.coincap.io/prices?assets=bitcoin");
-    pricesWs.onmessage = function (msg) {
-        var obj = JSON.parse(msg.data);
-        if(obj.bitcoin)
-            updateBitcoinPrice(obj.bitcoin);
-    }
-}
+//function retrieveBitcoinPrice() {
+//    const pricesWs = new WebSocket("wss://ws.coincap.io/prices?assets=bitcoin");
+//    pricesWs.onmessage = function (msg) {
+//        var obj = JSON.parse(msg.data);
+//        if(obj.bitcoin)
+//            updateBitcoinPrice(obj.bitcoin);
+//    }
+//}
 
 function budgetString(str) {
     var finalStr = "";
@@ -78,6 +78,4 @@ for (var i = 0; i < div_list.length; ++i) {
         }
     });
 }
-
-retrieveBitcoinPrice();
 
