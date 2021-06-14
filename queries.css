@@ -1,0 +1,1028 @@
+@media only screen and (max-width: 1800px){
+        .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .row img {
+        width: 75px;
+        margin-right: 0px;
+    }
+    .name{
+        width:150px;
+        margin-top: 7px;
+    }
+    .price{
+        width:130px;
+        margin-top:15px;
+    }
+    .price h3{
+        font-size: 20px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .buy{
+        margin-top:23px;
+    }
+    .sell{
+        margin-top:23px;
+    }
+    .amount{
+        margin-top:10px;
+        width:100px;
+    }
+    .amount p{
+        font-size:20px;
+    }
+    .btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 20px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 20px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+}
+@media only screen and (max-width: 1560px){
+        .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .row img {
+        width: 65px;
+        margin-right: 0px;
+    }
+    .name{
+        width:120px;
+        margin-top: 13px;
+    }
+    .price{
+        width:130px;
+        margin-top:15px;
+    }
+    .price h3{
+        font-size: 20px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .buy{
+        margin-top:23px;
+    }
+    .sell{
+        margin-top:23px;
+    }
+    .amount{
+        margin-top:10px;
+        width:100px;
+    }
+    .amount p{
+        font-size:20px;
+    }
+    .btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 20px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 20px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+    #formContainer {
+    width: 250px;
+    margin: 0;
+}
+    #formC {
+    width: 100%;
+    margin-top: 33px;
+}
+    .theInputs{
+        width:140px;
+    }
+}
+@media only screen and (max-width: 1490px){
+        .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .row img {
+        width: 60px;
+        margin-right: 0px;
+    }
+    .name{
+        width:100px;
+        margin-top: 13px;
+    }
+    .price{
+        width:80px;
+        margin-top:15px;
+    }
+    .price h3{
+        font-size: 18px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .buy{
+        margin-top:29px;
+        margin-left:0;
+    }
+    .sell{
+        margin-top:29px;
+    }
+    .amount{
+        margin-top:20px;
+        width:70px;
+    }
+    .amount p{
+        font-size:15px;
+    }
+    .btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 15px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 15px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+    #formContainer {
+    width: 170px;
+    margin: 0;
+}
+    #formC {
+    width: 200px;
+    margin-top: 33px;
+}
+    .theInputs{
+        width:80px;
+    }
+    .coins{
+        padding-left:25%;
+        padding-right:25%;
+    }
+    .photo{
+        width:65px;
+        margin-right:5px;;
+    }
+}
+@media only screen and (max-width: 1250px){
+        .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 17px;
+    }
+
+    .row img {
+        width: 50px;
+        margin-right: 0px;
+    }
+    .name{
+        width:80px;
+        margin-top: 17px;
+    }
+    .price{
+        width:75px;
+        margin-top:15px;
+    }
+    .price h3{
+        font-size: 18px;
+    }
+    label{
+        font-size: 15px;
+    }
+    .buy{
+        margin-top:29px;
+        margin-left:0;
+    }
+    .sell{
+        margin-top:29px;
+    }
+    .amount{
+        margin-top:10px;
+        width:80px;
+    }
+    .amount p{
+        font-size:20px;
+    }
+    .btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 17px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 17px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+    #formContainer {
+    width: 170px;
+    margin: 0;
+}
+    #formC {
+    width: 150px;
+    margin-top: 33px;
+}
+    .theInputs{
+        width:70px;
+    }
+    .coins{
+        padding-left:25%;
+        padding-right:25%;
+    }
+    .photo{
+        width:50px;
+        margin-right:8px;
+        margin-top:17px;
+    }    
+}
+@media only screen and (max-width: 1180px){
+header {
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #bab4b4, #7187ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+html {
+    background-image: linear-gradient(to bottom right, #4b4a4a, #7187ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c3c3c3;
+    margin-top: 20px;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+    .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .row img {
+        width: 100px;
+        margin-right: 10px;
+    }
+
+
+.coins {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.theLabels {
+    width: 30% float:left;
+}
+
+#formContainer {
+    width: 280px;
+    margin: 0;
+}
+
+#formC {
+    width: 100%;
+    margin-top: 40px;
+}
+
+label {
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+}
+
+.name {
+    width: 150px;
+    margin-top: 8px;
+}
+
+.price {
+    width: 140px;
+    margin-top:10px;
+}
+
+.photo {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 0;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+    .photo img {
+        width: 75px;
+    }
+
+.buy {
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.sell {
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.amount {
+    height: 20px;
+    width: 150px;
+}
+
+    .amount p {
+        text-align: center;
+    }
+
+.btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 24px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 24px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.balance {
+    margin-top: 10px;
+    color: white;
+    background-color: #848484;
+    margin-right: font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    .balance p {
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+.reset:link,
+.reset:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #7777ea;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #7777ea;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 24px;
+}
+
+.reset:active,
+.reset:hover {
+    border: 1px solid #6363ea;
+    background-color: #6363ea;
+}
+    .theInputs{
+        width:130px;
+    }
+
+}
+@media only screen and (max-width: 1020px){
+        .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 23px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .row img {
+        width: 80px;
+        margin-right: 0px;
+    }
+    .name{
+        width:140px;
+        margin-top: 12px;
+    }
+    .price{
+        width:130px;
+        margin-top:12px;
+    }
+    .price h3{
+        font-size: 25px;
+    }
+    label{
+        font-size: 22px;
+    }
+    .buy{
+        margin-top:26px;
+        margin-left:0;
+    }
+    .sell{
+        margin-top:26px;
+    }
+    .amount{
+        margin-top:13px;
+        width:100px;
+    }
+    .amount p{
+        font-size:22px;
+    }
+    .btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 22px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 22px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+    #formContainer {
+    width: 220px;
+    margin-right: 0px;
+}
+    #formC {
+    width: 200px;
+    margin-top: 33px;
+}
+    .theInputs{
+        width:100px;
+    }
+    .coins{
+        padding-left:0%;
+        padding-right:0%;
+    }
+    .photo{
+        width:85px;
+        margin-right:10px;
+        margin-top:5px;
+    }
+}
+@media only screen and (max-width: 840px){
+        .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 23px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .row img {
+        width: 130px;
+        margin-right: 0px;
+    }
+    .name{
+        width:250px;
+        margin-top: 12px;
+    }
+    .name p{
+        font-size: 35px;
+    }
+    .price{
+        width:200px;
+        margin-top:12px;
+    }
+    .price h3{
+        font-size: 35px;
+    }
+    label{
+        font-size: 35px;
+    }
+    .buy{
+        margin-top:35px;
+        margin-left:0;
+    }
+    .sell{
+        margin-top:35px;
+    }
+    .amount{
+        margin-top:13px;
+        width:100px;
+    }
+    .amount p{
+        font-size:25px;
+    }
+    .btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 22px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 22px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+    #formContainer {
+    width: 400px;
+    margin-right: 0px;
+}
+    #formC {
+    width: 400px;
+    margin-top: 33px;
+}
+    .theInputs{
+        width:200px;
+    }
+    .coins{
+        padding-left:0%;
+        padding-right:0%;
+    }
+    .photo{
+        width:130px;
+        margin-right:40px;
+        margin-top:5px;
+        margin-left:30px;
+    }   
+}
+@media only screen and (max-width: 740px){
+        .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 23px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .row img {
+        width: 100px;
+        margin-right: 0px;
+    }
+    .name{
+        width:230px;
+        margin-top: 12px;
+    }
+    .name p{
+        font-size: 28px;
+    }
+    .price{
+        width:170px;
+        margin-top:15px;
+    }
+    .price h3{
+        font-size: 25px;
+    }
+    label{
+        font-size: 28px;
+    }
+    .buy{
+        margin-top:35px;
+        margin-left:0;
+    }
+    .sell{
+        margin-top:35px;
+    }
+    .amount{
+        margin-top:13px;
+        width:100px;
+    }
+    .amount p{
+        font-size:25px;
+    }
+    .btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 22px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 22px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+    #formContainer {
+    width: 250px;
+    margin-right: 70px;
+}
+    #formC {
+    width: 280px;
+    margin-top: 33px;
+}
+    .theInputs{
+        width:130px;
+    }
+    .coins{
+        padding-left:0%;
+        padding-right:0%;
+    }
+    .photo{
+        width:100px;
+        margin-right:20px;
+        margin-top:5px;
+        margin-left:20px;
+    }    
+}
+@media only screen and (max-width: 620px){
+            .row p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 23px;
+    }
+
+    .row h3 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .row img {
+        width: 65px;
+        margin-right: 0px;
+    }
+    .name{
+        width:150px;
+        margin-top: 5px;
+    }
+    .name p{
+        font-size: 22px;
+    }
+    .price{
+        width:170px;
+        margin-top:5px;
+    }
+    .price h3{
+        font-size: 25px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .buy{
+        margin-top:29px;
+        margin-left:0;
+        margin-bottom: 15px;
+    }
+    .sell{
+        margin-top:29px;
+    }
+    .amount{
+        margin-top:20px;
+        width:100px;
+    }
+    .amount p{
+        font-size:17px;
+    }
+.btnbuy:link,
+.btnbuy:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    font-size: 17px;
+}
+
+.btnbuy:hover,
+.btnbuy:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+
+.btnsell:link,
+.btnsell:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15%;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s;
+    float: right;
+    font-size: 17px;
+}
+
+.btnsell:hover,
+.btnsell:active {
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
+}
+    #formContainer {
+    width: 200px;
+    margin-right: 20px;
+}
+    #formC {
+    width: 280px;
+    margin-top: 33px;
+}
+    .theInputs{
+        width:100px;
+    }
+    .coins{
+        padding-left:0%;
+        padding-right:0%;
+    }
+    .photo{
+        width:65px;
+        margin-right:15px;
+        margin-top:5px;
+        margin-left:0px;
+    } 
+}

@@ -1,20 +1,26 @@
 header {
     padding: 60px;
     text-align: center;
-    background: #c3c3c3;
+    background-image: linear-gradient(to bottom right, #bab4b4, #7187ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     font-size: 30px;
     border-radius: 8px;
 }
 
 html {
-    background-color: #2f2f2f;
+    background-image: linear-gradient(to bottom right, #4b4a4a, #7187ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    background-color: #c3c3c3;
+    background-image: linear-gradient(to bottom right, #bab4b4, #7187ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-top: 20px;
     border-radius: 18px;
     padding: 20px;
@@ -115,30 +121,31 @@ label {
 .btnbuy:visited {
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 1px solid greenyellow;
+    color: #7187ff;
+    border: 1px solid #fff;
+    background-color: #fff;
     padding: 15%;
     border-radius: 15px;
-    background-color: greenyellow;
     transition: background-color 0.2s, border 0.2s;
     font-size: 24px;
 }
 
 .btnbuy:hover,
 .btnbuy:active {
-    border: 1px solid #86c722;
-    background-color: #86c722;
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
 }
 
 .btnsell:link,
 .btnsell:visited {
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 1px solid #ff003b;
+    color: #7187ff;
+    border: 1px solid #fff;
     padding: 15%;
     border-radius: 15px;
-    background-color: #ff003b;
+    background-color: #fff;
     transition: background-color 0.2s, border 0.2s;
     float: right;
     font-size: 24px;
@@ -146,14 +153,17 @@ label {
 
 .btnsell:hover,
 .btnsell:active {
-    border: 1px solid #bc0630;
-    background-color: #bc0630;
+    border: 1px solid #7187ff;
+    background-color: #7187ff;
+    color:#fff;
 }
 
 .balance {
     margin-top: 10px;
     color: white;
-    background-color: #848484;
+    background-image: linear-gradient(to bottom right, #bab4b4, #7187ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-right: font-size: 32px;
     font-weight: bold;
     text-align: center;
@@ -163,14 +173,13 @@ label {
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
     .balance p {
         font-size: 40px;
         margin-bottom: 10px;
         margin-top: 10px;
+        color: #fff;
     }
 
 .reset:link,
@@ -178,16 +187,16 @@ label {
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid #d1d1d1;
+    border: 1px solid #7777ea;
     padding: 5px;
     border-radius: 15px;
-    background-color: #d1d1d1;
+    background-color: #7777ea;
     transition: background-color 0.2s, border 0.2s;
     font-size: 24px;
 }
 
 .reset:active,
 .reset:hover {
-    border: 1px solid #676565;
-    background-color: #676565;
+    border: 1px solid #6363ea;
+    background-color: #6363ea;
 }
